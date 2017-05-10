@@ -1,0 +1,413 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Batalla de Puebla</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.2.min.css"
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('../../../../../imagenes bp/historia2.jpg','../../../../../imagenes bp/batalla4.jpg','../../../../../imagenes bp/personajes3.jpg')"> 
+ <div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-theme="b">
+   <h1>Batalla de Puebla.</h1>
+  </div>
+    <div data-role="main" class="ui-content">
+ 
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batalla.jpg" alt="batalla" title="batalla" id="wows1_0"/></li>
+		<li><img src="data1/images/batalla4.jpg" alt="batalla4" title="batalla4" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla2.jpg" alt="batalla2" title="batalla2" id="wows1_2"/></li>
+		<li><img src="data1/images/historia1.jpg" alt="historia1" title="historia1" id="wows1_3"/></li>
+		<li><img src="data1/images/historia2.jpg" alt="historia2" title="historia2" id="wows1_4"/></li>
+		<li><img src="data1/images/historia3.jpg" alt="historia3" title="historia3" id="wows1_5"/></li>
+		<li><img src="data1/images/imagen1.jpg" alt="imagen1" title="imagen1" id="wows1_6"/></li>
+		<li><img src="data1/images/imagen2.jpg" alt="imagen2" title="imagen2" id="wows1_7"/></li>
+		<li><img src="data1/images/monumento1.jpg" alt="monumento1" title="monumento1" id="wows1_8"/></li>
+		<li><img src="data1/images/personajes2.jpg" alt="personajes2" title="personajes2" id="wows1_9"/></li>
+		<li><img src="data1/images/monumento2.jpg" alt="monumento2" title="monumento2" id="wows1_10"/></li>
+		<li><img src="data1/images/batalla3.jpg" alt="batalla3" title="batalla3" id="wows1_11"/></li>
+		<li><img src="data1/images/personajes3.jpg" alt="personajes3" title="personajes3" id="wows1_12"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/monumento3.jpg" alt="bootstrap slider" title="monumento3" id="wows1_13"/></a></li>
+		<li><img src="data1/images/personajes.jpg" alt="personajes" title="personajes" id="wows1_14"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="batalla"><span><img src="data1/tooltips/batalla.jpg" alt="batalla"/>1</span></a>
+		<a href="#" title="batalla4"><span><img src="data1/tooltips/batalla4.jpg" alt="batalla4"/>2</span></a>
+		<a href="#" title="batalla2"><span><img src="data1/tooltips/batalla2.jpg" alt="batalla2"/>3</span></a>
+		<a href="#" title="historia1"><span><img src="data1/tooltips/historia1.jpg" alt="historia1"/>4</span></a>
+		<a href="#" title="historia2"><span><img src="data1/tooltips/historia2.jpg" alt="historia2"/>5</span></a>
+		<a href="#" title="historia3"><span><img src="data1/tooltips/historia3.jpg" alt="historia3"/>6</span></a>
+		<a href="#" title="imagen1"><span><img src="data1/tooltips/imagen1.jpg" alt="imagen1"/>7</span></a>
+		<a href="#" title="imagen2"><span><img src="data1/tooltips/imagen2.jpg" alt="imagen2"/>8</span></a>
+		<a href="#" title="monumento1"><span><img src="data1/tooltips/monumento1.jpg" alt="monumento1"/>9</span></a>
+		<a href="#" title="personajes2"><span><img src="data1/tooltips/personajes2.jpg" alt="personajes2"/>10</span></a>
+		<a href="#" title="monumento2"><span><img src="data1/tooltips/monumento2.jpg" alt="monumento2"/>11</span></a>
+		<a href="#" title="batalla3"><span><img src="data1/tooltips/batalla3.jpg" alt="batalla3"/>12</span></a>
+		<a href="#" title="personajes3"><span><img src="data1/tooltips/personajes3.jpg" alt="personajes3"/>13</span></a>
+		<a href="#" title="monumento3"><span><img src="data1/tooltips/monumento3.jpg" alt="monumento3"/>14</span></a>
+		<a href="#" title="personajes"><span><img src="data1/tooltips/personajes.jpg" alt="personajes"/>15</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  
+    <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+     <a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Antecedentes de la Batalla.</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Historia.</h2>
+     </a>
+    </li>
+        <li class="ui-first-child ui-last-child">
+     <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Personajes Principales.</h2>
+     </a>
+    </li>
+        <li class="ui-first-child ui-last-child">
+     <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Motivos de la Guerra</h2>
+     </a>
+    </li>
+        <li class="ui-first-child ui-last-child">
+     <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Monumento Emblemático al 150 Aniversario de la Batalla de Puebla </h2>
+     </a>
+    </li><
+   </ul>
+  </div>
+  </div>
+  
+   <div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#dc" data-role="button" >
+    <h2>Datos Curiosos</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#cm" data-role="button">
+    <h2>Conoce más de:</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#contra" data-role="button">
+    <h2>Contraataque:</h2>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+    <a href="#fuga" data-role="button">
+    <h2>Huída Presidencial.</h2>
+    </a>
+    </li>
+  </ul>
+  </div>
+  </div>
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <h4>Ana Lili Fabian García.<br>Sexta Aplicación.</h4>
+   <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+
+<div data-role="page" id="dc" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DATOS CURIOSOS</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h2>5 Datos Interesantes sobre la Batalla de Puebla.</h2>
+     <br>*El 5 de septiembre de 1862, todavía acuartelado en Puebla, el general Zaragoza contrajo tifo y falleció tres días después.
+<br>*El general conservador Miguel Negrete, abandonó al partido conservador y se puso a disposición de Zaragoza con la siguiente frase: “Yo tengo patria antes que partido.”
+<br>*El Ejército Mexicano ganó esta Batalla pero el Ejército Francés atacó nuevamente a Puebla con  refuerzos y mejores estrategias dando como resultado una victoria que desembocaría en el posterior establecimiento del Segundo Imperio Mexicano.
+<br>*Benito Juarez se vio obligado a moverse a otras ciudades pues los franceses estaban en constante acecho y habían ocupado la capital. Las ciudades ocupadas por Juarez fueron: San Luis Potosí, Monterrey, Saltillo, Chihuahua y Paso del Norte. Al final de la guerra en contra de Francia, México logró vencer y en honor a Juarez es que Paso del Norte cambió de nombre a lo que hoy conocemos como Ciudad Juarez.
+<br>*Los franceses se retiraron incondicionalmente del país en 1867.
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+    <div>
+      <p><img src="imagenes bp/batalla3.jpg" width="308" height="163" alt="baja"></p>
+      <p><img src="imagenes bp/personajes3.jpg" width="281" height="179" alt="media"></p>
+   <p><img src="imagenes bp/batalla2.jpg" width="266" height="190" alt="alta"><br>
+   </p>
+     </div>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+   </div>
+   </div>
+   
+   <div data-role="page" id="cm" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Acerca de...</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h2>Conoce a fondo la vida de los participantes en esta batalla.</h2>
+     <a href="http://www.biografiasyvidas.com/biografia/j/juarez.htm" target="_self"> Benito Juárez</a><br>
+     <a href="http://www.biografiasyvidas.com/biografia/m/maximiliano_i.htm" target="_self"> Maximiliano de Habsburgo.</a><br>
+     <a href="http://www.biografiasyvidas.com/biografia/z/zaragoza.htm"  target="_self"> Ignacio Zaragoza</a>
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes:</h1>
+    <div>
+      <p><img src="imagenes bp/batalla2.jpg"  width="281" height="179" alt="media"></p>
+     </div>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+   </div>
+   </div>
+   
+    <div data-role="page" id="contra" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Contraataque:</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h2>Contraataque:</h2><br>El contraataque
+El ejército mexicano ganó esta batalla, sin embargo, los franceses pidieron refuerzos a Napoleón III y realizaron un contraataque exitoso, que llevó finalmente al establecimiento del Segundo Imperio Mexicano, marcado por la llegada del emperador Maximiliano de Habsburgo en 1864. Los franceses no abandonaron territorio mexicano hasta 1867.<br>
+<img src="imagenes bp/historia3.jpg" width="281" height="179" alt="media">
+
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+   </div>
+   </div>
+   
+   <div data-role="page" id="fuga" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Huída presidencial.</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h2>Huída presidencial:</h2><br>Huída presidencial
+Benito Juárez, el presidente en ese entonces, tuvo que establecer el gobierno mexicano al norte del país, en la ciudad de Paso del Norte, debido a la Segunda Intervención Francesa. Paso del Norte pasó a ser Ciudad Juárez por decreto de Porfirio Díaz, presidente de México en siete ocasiones, en honor a Benito Juárez.
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+   </div>
+   </div>
+  
+   
+<div data-role="page" id="page1" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Antecedentes de la Batalla.</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h2>Antecedentes de la Batalla de Puebla</h2>
+     <p>En octubre de 1861, <strong>Francia, Inglaterra y España</strong> suscribieron la <strong>Convención de Londres</strong>, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una <strong>gran deuda de 80 millones de pesos</strong>, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</p>
+     <p>La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.</p>
+     <p>Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al <strong>Ejército de Oriente</strong> y el hombre que se designó en el mando fue el general <strong>Ignacio Zaragoza</strong>.</p>
+     <p>En un principio la <strong>Alianza Tripartita</strong> aceptó el llamado al diálogo de Benito Juarez y sus representantes se reunieron con <strong>Manuel Doblado</strong>, ministro de Relaciones Exteriores del gobierno mexicano, quien consiguió que <strong>Juan Prim</strong>, representante español, y <strong>Lord John Russell</strong> por Inglaterra se retiraran. A este acuerdo se le conoce como los <strong>Tratados Preliminares de la Soledad</strong>.</p>
+     <p>El 5 de marzo, cuando aún se realizaban las negociaciones de los Tratados de la Soledad, llegó a Veracruz un contingente militar francés bajo el mando de Charles Ferdinand Latrille, conde de Lorencez. A finales de abril, Lorencez desconoció los Tratados de Soledad y se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin último de conquistar la Ciudad de México.</p>
+     <blockquote>
+       <blockquote>
+         <blockquote>
+           <blockquote>
+             <blockquote>
+               <blockquote>
+                 <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','../../../../../imagenes bp/batalla4.jpg',1)"><img src="../../../../../imagenes bp/batalla3.jpg" width="264" height="191" id="Image39"></a></p>
+               </blockquote>
+             </blockquote>
+           </blockquote>
+         </blockquote>
+       </blockquote>
+     </blockquote>
+   </div>
+     
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+  
+<div data-role="page" id="page2" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Historia.</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h2>Historia de la Batalla de Puebla     </h2>
+     <p>Antes del <strong>5 de Mayo</strong>, el día  28 de abril de 1862 tuvo lugar un enfrentamiento conocido como la Batalla de las Cumbres entre el Ejército Expedicionario Francés y el Ejército Mexicano. En este conflicto hubieron cerca de 500 bajas francesas en contra de apenas 50 bajas mexicanas. Pese a esto, el Ejército Expedicionario francés consigue hacerse con el control del Paso de Acultzingo.</p>
+     <p>Después de la Batalla de las Cumbres el conde de Lorencez conservaba su confianza y mandó a decir a Napoleon III que: &ldquo;Somos tan superiores a los mexicanos en organización, disciplina, raza, moral y refinamiento de sensibilidades, que le ruego anunciarle a Su Majestad Imperial, Napoleón III, que a partir de este momento y al mando de nuestros 6,000 valientes soldados, ya soy dueño de México&rdquo;</p>
+     <p>El 2 de mayo parte el Ejército Expedicionario Francés desde San Agustín del Palmar en Veracruz con rumbo para cruzar la Sierra Madre Oriental y dirigirse <strong>hacia Puebla</strong> ya que era paso obligado para llegar a la capital del país.</p>
+     <p>Cabe señalar que el Partido Conservador apoyaba la Invasión francesa e incluso formaron parte de la guerrilla que atacó en varias ocasiones al <strong>Ejército de Oriente</strong>.</p>
+     <p>Otros generales mexicanos también participaron en la defensa de Puebla como es el caso de  las tropas de Oaxaca dirigidas por <strong>Porfirio Díaz</strong>. El centro de la línea lo defendió <strong>Francisco Lamadrid</strong> con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los <strong>Fuertes de Loreto y Guadalupe</strong>, con el general <strong>Miguel Negrete</strong> a la cabeza de la <strong>Segunda División de Infantería</strong>.</p>
+     <p>El 5 de mayo a las 9:15am aparecen los franceses en el horizonte pero no es sino hasta las 11:15am cuando comienzan las hostilidades anunciándose con un cañonazo desde el <strong>Fuerte de Guadalupe</strong> y acompañado por los repiques de las campanas de la ciudad.</p>
+     <p>El conde de Lorencez ordena una maniobra sorpresiva que divide a la columna francesa en dos y que da como resultado a 4,000 hombres marchando para atacar los Fuertes de Loreto y Guadalupe. Esta decisión pudo ser la causa de la derrota francesa ya que los mexicanos contaban con la ventaja en estas posiciones.</p>
+     <p> <strong>El 6o. Batallón de la Guardia Nacional del Estado de Puebla</strong>, bajo el mando del entonces coronel <strong>Juan Nepomuceno Méndez</strong>, fue el <strong>primer cuerpo del Ejército de Oriente en hacer frente a los franceses</strong>, al ubicarse en la línea comprendida entre los fuertes, y rechazar su ataque.</p>
+     <p>Varios embates franceses fueron repelidos por la resistencia del Ejército Mexicano como es el caso de los zuavos, el regimiento de élite de la infantería francesa, quienes iniciaron un sigiloso ascenso hacia el <strong>Fuerte de Guadalupe</strong> pero fueron recibidos con bayonetas y obligados a retroceder.</p>
+     <p>El coronel mexicano <strong>José Rojo</strong> avisó a Antonio Álvarez que era tiempo de que la caballería mexicana entrara en acción para alcanzar una victoria completa. Ordenó a los Carabineros de Pachuca cargar sobre los restos de la columna, disparando sus carabinas y lanzando mandobles de sable sobre los franceses, siendo totalmente rechazados.</p>
+     <p>A las dos y media de la tarde, cuando los mexicanos empezaban a vislumbrar la victoria, Lorencez se dispuso a lanzar el último asalto, dirigiendo a los Cazadores de Vincennes y el Regimiento de Zuavos hacia Guadalupe. Zaragoza dispuso que el <strong>Batallón Reforma</strong> de San Luis Potosí saliera en auxilio de los fuertes.</p>
+     <p>Luego de ser repelidos por última vez, las fuerzas del Ejército Expedicionario Francés comenzaron a huir completamente dispersados. Se replegaron a la hacienda Los Álamos, para finalmente retirarse hacia <strong>Amozoc</strong>.</p>
+     <blockquote>
+       <blockquote>
+         <blockquote>
+           <blockquote>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','../../../../../imagenes bp/historia2.jpg',1)"><img src="../../../../../imagenes bp/historia1.jpg" width="408" height="229" id="Image38"></a></p>
+           </blockquote>
+         </blockquote>
+       </blockquote>
+     </blockquote>
+  </div>
+ 
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación Sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+   </div>
+   
+   <div data-role="page" id="page3" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Personajes Principales.</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <h3>Principales personajes de la batalla de Puebla por México</h3>
+     <h4>General Ignacio Zaragoza </h4>
+     <p>Famoso militar mexicano qiuen enfrentó las fuerzas francesas de Napoleón III en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862. Zaragoza comprendió la posición defensiva y favorable que tenía la ciudad de Puebla, paso obligado para ir a la Ciudad de México, y con un ejército más pequeño y menos equipado que los franceses, logró dar una batalla excepcional desde los cerros de Loreto y Guadalupe el 5 de mayo de 1862.</p>
+     <h4>General Porfirio Díaz</h4>
+     <p>Militar y político mexicano, Porfirio Díaz ingresó en el ejército, y su carrera militar fue meteórica. En la guerra de Reforma (1858-1861), conflicto civil en el que se enfrentaron conservadores y liberales, apoyó la causa liberal. La guerra concluyó con la victoria de los liberales y llevó a la presidencia a Benito Juárez (1861); finalizada la contienda, Porfirio Díaz fue ascendido a general y elegido diputado. Apenas un año más tarde tomó de nuevo las armas contra la invasión francesa (1862-1863) y la coronación de Maximiliano (1864-1867) como emperador de México. Fue jefe de brigada en Acultzingo en abril de 1862 y ese mismo año participó en la batalla de Cinco de Mayo al lado de Ignacio Zaragoza. El prestigio y popularidad ganados en sus últimas campañas lo dejó en situación de optar a la presidencia, pero el Congreso prefirió a Benito Juárez en 1867.</p>
+     <h4>Felipe Berriazábal</h4>
+     <p>Felipe Berriozábal Militar e ingeniero, nació en Zacatecas. Fue gobernador de los estados de México, Michoacán y San Luis Potosí. Como militar llegó a General y fue ministro de Guerra y Marina. Participó en la Guerra de Reforma y contra la Intervención Francesa. En la batalla del 5 de mayo en Puebla, actuó bajo las órdenes del general Ignacio Zaragoza , aseguró el triunfo de los mexicanos al dar alcance con la caballería.  En 1863, fue hecho prisionero por los franceses, logró fugarse uniéndose al presidente Benito Juárez, quien lo designó en 1865 como Ministro de la Guerra.</p>
+     <h4>Miguel Negrete</h4>
+     <p>Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su célebre frase &ldquo;Yo tengo Patria antes que Partido&rdquo;.Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto.</p>
+     <blockquote>
+       <blockquote>
+         <blockquote>
+           <blockquote>
+             <p>&nbsp;</p>
+           </blockquote>
+         </blockquote>
+       </blockquote>
+     </blockquote>
+  </div>
+   
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación Sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+    <div data-role="page" id="page4" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Motivos de la Guerra</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <div><strong>Motivos de la guerra</strong></div>
+     <div><br>
+     </div>
+     <div>En mayo de 1861, el presidente <a href="http://www.historia-mexico.info/2012/11/benito-juarez.html" target="_blank">Benito Juárez</a> anunció la suspensión de los pagos de deuda la mexicana. Como consecuencia, los acreedores que eran Francia, Inglaterra y España firmaron la conocida Convención de Londres por la cual se comprometían enviar contingentes militares hacia el territorio mexicano con el fin hacer valer los derechos como acreedores.</div>
+     <div>En diciembre del mismo año, llegaron al puerto de Veracruz los primeros militares mientras que en enero de 1862 arribaron las tropas inglesas y francesas. Una vez en el país, los representantes de los tres países acreedores enviaron un ultimátum al gobierno de México exigiéndole el pago de las deudas ya que de lo contrario invadirían el país. Juárez al ver que la invasión era un riesgo evidente, solicitó negociar para llegar a un acuerdo amistoso al tiempo que derogó el decreto que llevó a los países acreedores a iniciar acciones militares.</div>
+     <div>El presidente Juárez viendo la posibilidad de una invasión militar a la Ciudad de México ordenó la fortificación de Puebla al mismo tiempo que creó una nueva unidad militar conocida como Ejército de Oriente. Esta en un principio estuvo bajo las órdenes de José López Uraga pero debido a su mal desempeño el mando recayó en las manos del hasta entonces Ministro de Guerra, Zaragoza. Él tuvo la tarea de organizar las fuerzas, que sumaban unos 10.000 hombres, para repeler el ataque del ejército francés.<br>
+       <br>
+     </div>
+     <div>Los representantes de los países acreedores aceptaron la propuesta de negociación y en febrero de 1862 se reunieron con los ministros Manuel Doblado (Mtro. De Exterior) e Ignacio Zaragoza (Mtro. de Guerra). La reunión se llevó a cabo en la hacienda La Soledad muy próxima a Veracruz. Esta negociación derivó en la firma de los Tratados preliminares de La Soledad mediante los cuales España, Francia e Inglaterra se comprometían a reconocer la independencia del país. En cuanto a la deuda, se aceptó que las negociaciones se realizasen en Orizaba, Córdoba y Tehuacán. En caso de no llegar a un acuerdo, se comenzarían las campañas militares desde las costas.</div>
+     
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+    <div>
+      <p><img src="imagenes/historia1.jpg" width="308" height="163" alt="baja"></p>
+      <p><img src="imagenes/imagen2.jpg" width="281" height="179" alt="media"></p>
+   <p><img src="imagenes/historia3.jpg" width="266" height="190" alt="alta"><br>
+   </p>
+     </div>
+     </div>
+     
+   </div>
+   
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+<div data-role="page" id="page5" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Monumento Emblemático al 150 Aniversario de la Batalla de Puebla.</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <p>En Puebla,  ciudad de leyendas e inmensa riqueza cultural, encontramos un caleidoscopio de edificaciones, texturas e interacciones que se entremezclan para regalarnos un mosaico de la actual cultura poblana. Dentro de éste marco, al noreste del zócalo se encuentra un complejo que agrupa diversos espacios para la cultura, educación y recreación; sitio que alberga al &ldquo;Monumento Emblemático&rdquo; del 150 Aniversario de la Batalla de Puebla.<br></p>
+     <p>A través de la historia, monumentos se han erigido para recordar a las nuevas generaciones de los sucesos pasados que definen los tiempos actuales. Tipificados comúnmente como objetos escultóricos, nuestra propuesta busca fomentar las relaciones entre la continuidad del espacio público y potencializar el sitio, mediante la creación de espacios plurales de convivencia, así como el aprovechamiento de las vistas que otorga el emplazamiento. </p>
+     <p>Formalmente, la idea de monumento es abstraída para diseñar un espacio que va de lo abierto a lo cerrado, de la escultura vertical a la horizontal; impulsando la convivencia a través de los intersticios que surgen de la elevación premeditada de niveles. </p>
+     <blockquote>
+       <blockquote>
+         <blockquote>
+           <blockquote>
+             <blockquote>
+               <blockquote>
+                 <blockquote>
+                   <blockquote>
+                     <blockquote>
+                       <blockquote>
+                         <blockquote>
+                           <blockquote>
+                             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','../../../../../imagenes bp/monumento2.jpg',0)"> <img src="../../../../../imagenes bp/monumento1.jpg" width="295" height="164" id="Image37"></a></p>
+                           </blockquote>
+                         </blockquote>
+                       </blockquote>
+                     </blockquote>
+                   </blockquote>
+                 </blockquote>
+               </blockquote>
+             </blockquote>
+           </blockquote>
+         </blockquote>
+       </blockquote>
+     </blockquote>
+   </div>
+   
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Aplicación sexta, ALFG</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  
+</div>
+   
+    
+   
+</body>
+</html>
